@@ -1,0 +1,133 @@
+.contact{
+  background-color:lightblue ;
+  background-position: center center;
+  background-size: cover;
+  margin-top: 25px;
+  height: 820px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 6rem;
+  }
+  
+  .contact_header{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    border-bottom: 1px solid #ff3399;
+    margin-top: 2rem;
+    padding-bottom: 10px;
+    height: 6vh;
+  }
+  
+  .contact_header_strip div{
+    width: 6.2rem;
+    height: 2.5rem;
+    background-color: rgb(64, 224, 208);
+  }
+  
+  .contact_header_title{
+    font-size: 2.33rem;
+    font-weight: 300;
+    line-height: 4.66rem;
+    margin-left: 0.26rem;
+  }
+  
+  .contact_body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact_title{
+    margin-top: 2.66rem;
+    font-size: 2.33rem;
+    font-weight: 400;
+  }
+  
+  .contact_subtitle{
+    opacity: 0.8;
+    font-size: 1.2rem;
+  }
+  
+  .contact_message{
+    width: 46.66rem;
+    height: 10.66rem;
+    box-shadow: 0 0 4px #808080;
+    border-radius: 2rem;
+    margin-top: 3.33rem;
+    padding: 1rem;
+    resize: none;
+    font-size: 1rem;
+    color: #808080;
+  }
+  
+  textarea {
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #ffffff;
+    transition: all .2s linear;
+  }
+  
+  ::placeholder{
+    color: #808080;
+    font-size: 1rem;
+    opacity: 0.5;
+  }
+  
+  .contact_data{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 46.66rem;
+    margin-top: 2rem;
+  }
+  
+  .contact_data_input{
+    display: flex;
+    width: inherit;
+  }
+  
+  .contact_input_email, .contact_input_name{
+    box-shadow: 0 0 4px #808080;
+    border: 2px solid #ffffff;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    color: #808080;
+    height: 2.66rem;
+    padding: 0 1rem;
+    cursor: pointer;
+    transition: all .2s linear;
+  }
+  .contact_input_email{
+    width: 55%;
+  }
+  .contact_input_name{
+    width: 40%;
+  }
+  
+  .contact_input_email:hover, .contact_input_email:focus,
+  .contact_input_name:hover, .contact_input_name:focus,
+       textarea:hover, textarea:focus{
+    border: 2px solid rgb(64, 224, 208);
+  }
+  
+  .contact_data_button {
+    box-shadow: 0 0 4px #808080;
+    width: 15%;
+    background-color: #ffffff;
+    color: #808080;
+    padding: 0.85rem;
+    transition: all .2s linear;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .contact_data_button:hover, .contact_data_button.active {
+    background-color: #40e0d0;
+    border-color: #40e0d0;
+    color: #ffffff;
+  }
+  
+  

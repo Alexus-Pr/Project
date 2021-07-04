@@ -1,0 +1,61 @@
+.nav {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: auto;
+}
+.nav a:last-child{
+  margin-left: auto;
+}
+/* .nav a:first-child{
+  margin-left: auto;
+} */
+
+.nav_link:hover::after, .nav_link.active::after {
+    width: 100%;
+  }
+    .nav_link_btn {
+    height: 100%;
+    margin: 5px;  
+    min-width: 6.66rem;
+    border: 1px solid #808080;
+    padding: 0.53rem 1rem;
+    transition: all .2s linear;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    float: right;
+  }
+  
+  .nav_link_btn:hover, .nav_link_btn.active {
+    background-color: #40e0d0;
+    box-shadow: 0 0 4px #808080;
+    border-color: #40e0d0;
+    color: #ffffff;
+  }
+ .LogoWrapper {
+   display: flex;
+   margin-right: 250px;
+ }
+ .LogoImg {
+   width: 89px;
+   height: 69px;
+   background: url(../../images/hiDucation.png);
+   margin-left: 20px;
+ }
+ .LogoText {
+  font-size: 18px;
+  margin-left: 6px;
+  color: #00ffff;
+  font-weight: 1000;
+ }
+ .hiMath{
+   margin-top: -8px;
+ }
+ .Gaming{
+   margin-top:-17px;
+   border-top:2px solid #00ffff;
+ }
