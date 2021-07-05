@@ -39,14 +39,15 @@
  .LogoWrapper {
    display: flex;
    margin-right: 250px;
+   min-height: 100px;
  }
  .LogoImg {
    width: 89px;
    height: 69px;
-   background: url(../../images/hiDucation.png);
    margin-left: 20px;
  }
  .LogoText {
+   display: block;
   font-size: 18px;
   margin-left: 6px;
   color: #00ffff;

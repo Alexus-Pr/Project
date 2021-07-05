@@ -7,7 +7,8 @@ export const Navigation = () => {
     return (
         <div className="nav">
             <div className="LogoWrapper">
-            <div className="LogoImg"></div>
+            {/* <div className="LogoImg" onclick="window.location.href='Home.js'"></div> */}
+            <a href="/home"><img classname="LogoImg" src="../../images/hiDucation.jpg" alt="logo"/></a>
             <div className="LogoText">
                 <h2 className="hiMath">hiMath</h2>
                 <h2 className="Gaming">Gaming</h2>
