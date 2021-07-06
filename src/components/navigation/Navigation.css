@@ -3,11 +3,11 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  margin-left: auto;
+
 }
-.nav a:last-child{
+/* .nav a:last-child{
   margin-left: auto;
-}
+} */
 /* .nav a:first-child{
   margin-left: auto;
 } */
@@ -38,13 +38,12 @@
   }
  .LogoWrapper {
    display: flex;
-   margin-right: 250px;
+   margin-right: 550px;
    min-height: 100px;
  }
- .LogoImg {
-   width: 89px;
-   height: 69px;
-   margin-left: 20px;
+ .LogoWrapper img{
+   width: 130px;
+   height: 65px;
  }
  .LogoText {
    display: block;

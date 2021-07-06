@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import VideoPlayer from 'react-video-js-player';
+import Video from "../../../video/PromotionalVideo.mp4"
 
 class VideoApp extends Component {
     player = {}
     state = {
         video: {
-            src: "PromotionalVideo.mp4",
-            poster: "logo1.png"
+            src: {Video},
+            poster: "video"
         }
     }
 
@@ -44,9 +45,9 @@ class VideoApp extends Component {
             <div>
                 <VideoPlayer
                     controls={true}
-                    src={this.state.video.src}
+                    src={Video}
                     poster={this.state.video.poster}
-                    width="650"
+                    width="550"
                     height="350"
                     onReady={this.onPlayerReady.bind(this)}
                     onPlay={this.onVideoPlay.bind(this)}

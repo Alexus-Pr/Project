@@ -34,7 +34,7 @@ export const Products = () => {
                 <div className={'products_header_strip'}>
                     <div/>
                 </div>
-                <span className={'products_header_title'}>Products</span>
+                <span className={'products_header_title'}>hiMath Gaming Products</span>
             </div>
             <div className={'products_body'}>
                 <div className={'products_menu'}>

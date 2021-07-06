@@ -260,6 +260,7 @@
 }
 
 .team_photo img{
+  /* background-image: url(../../../images/logo1.jpg); */
   position: absolute;
   width: 9.6rem;
   right: 2px;
