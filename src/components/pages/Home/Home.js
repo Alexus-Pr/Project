@@ -12,7 +12,6 @@ export const Home = () => {
                     <span className={'home_title2'}>hiMath Gaming</span>
                     <span className={'home_subtitle'}>Revolutionize eLearning</span>
                <VideoApp/>
-               
                 </div>
             </div>
         </div>
