@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ItemsCarousel from 'react-items-carousel';
-import styled from '../About/CardSection.css';
+import '../About/CardSection.css';
 import Zuckerberg from '../../../images/Zuckerberg.jpg'
 
 

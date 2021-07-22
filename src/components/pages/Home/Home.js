@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Home.css";
+import "./Home.css";
 import VideoApp from "./VideoApp";
 // import Back from "./BackgroudVideo/backgroundVideo";
 

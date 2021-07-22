@@ -42,20 +42,20 @@
    min-height: 100px;
  }
  .LogoWrapper img{
-   width: 130px;
-   height: 65px;
+   width: 150px;
+   height: 45px;
  }
- .LogoText {
+ /* .LogoText {
    display: block;
   font-size: 18px;
   margin-left: 6px;
   color: #00ffff;
   font-weight: 1000;
- }
- .hiMath{
+ } */
+ /* .hiMath{
    margin-top: -8px;
  }
  .Gaming{
    margin-top:-17px;
    border-top:2px solid #00ffff;
- }
+ } */
