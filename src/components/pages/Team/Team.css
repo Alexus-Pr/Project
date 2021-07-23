@@ -46,6 +46,7 @@
 .team_item{
   width: 17rem;
   margin: 1rem 1rem;
+  margin-right: 30px;
 }
 
 .team_item_wrapper{
@@ -243,9 +244,9 @@
   position: absolute;
   border-radius: 50%;
   background-color: white;
-  width: 10.66rem;
+  /* width: 10.66rem; */
   height: 10.66rem;
-  left: 3.33rem;
+  left: 3.66rem;
   bottom: 47%;
 }
 .team_photo{
@@ -256,15 +257,15 @@
   width: 10rem;
   height: 10rem;
   bottom: 3%;
-  left: 5px;
+  /* left: 5px; */
   background-color: white;
 }
 
 .team_photo img{
-  /* background-image: url(../../../images/logo1.jpg); */
   position: absolute;
-  width: 9.6rem;
-  right: 2px;
+  width: 126%;
+  margin-top: 20px;
+  margin-left: -13px;
 }
 .team_info{
   display: flex;
