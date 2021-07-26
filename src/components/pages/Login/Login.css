@@ -116,7 +116,26 @@ margin-top: 30px;
   border: none;
   width: 480px;
 }
-
+.icon_facebook{
+  width: 35px;
+  height: 35px;
+  justify-content: left;
+  margin-left: 0;
+  margin-top: 5px;
+}
+.icon_apple{
+  width: 33px;
+  height: 33px;
+  justify-content: left;
+  margin-left: 0;
+  margin-top: 5px;
+}
+.icon_google{
+  width: 47px;
+  height: 47px;
+  justify-content: left;
+  margin-left: -9px;
+}
 .login_item_input_icon {
   position: absolute;
   left: 1rem;
@@ -147,6 +166,7 @@ margin-top: 30px;
   margin-bottom: 1.66rem;
   padding: 0 1rem;
   transition: all .2s linear;
+  display: flex;
 }
 
 .login_social_button:last-child{
@@ -167,6 +187,7 @@ margin-top: 30px;
 .login_social_title{
   font-weight: 600;
   transition: color .2s linear;
+  margin: auto auto;
 }
 
 .login_social_button:hover .login_social_icon, .login_social_button:hover .login_social_title{
